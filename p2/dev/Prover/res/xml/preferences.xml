@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference android:title="Use Test Signature" android:defaultValue="true" android:key="useTestSignature" android:summary="If ticked, a test signature is used instead of a real mobile phone signature."/>
+    <EditTextPreference android:title="TTP Server URL" android:defaultValue="las-ttp.appspot.com" android:summary='Specifies the URL where the TTP API is accessable. For an GAE hosted TTP use a URL in the form of "applicationname.appsopt.com", for a GWT Development Server URL use a URL like "10.0.0.1:8888".' android:key="ttpApiUrl"/>
+    <CheckBoxPreference android:key="captureTan" android:summary="If enabled, the TAN received by SMS is captured automatically without any user intervention required." android:title="Capture TAN" android:defaultValue="true"/>
+    <CheckBoxPreference android:title="Verbose Log" android:summary="If enabled, the log output will show a lot more details (but gets very long)." android:key="verboseLog" android:defaultValue="true"/>
+    
+
+</PreferenceScreen>

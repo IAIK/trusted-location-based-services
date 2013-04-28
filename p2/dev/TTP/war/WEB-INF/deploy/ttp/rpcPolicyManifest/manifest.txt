@@ -1,0 +1,3 @@
+# Module ttp
+# RPC service class, partial path of RPC policy file
+at.tugraz.iaik.las.p2.ttp.client.TtpDataService, C871B0B00F71D18E3495CC526433389B.gwt.rpc
