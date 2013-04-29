@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Handy-Signatur Demo</string>
+	<string name="prefix_prompt">Select prefix..</string>
+	<string name="handysignatur">A-Trust Handy Signatur</string>
+	<string name="mobilePhoneSignatureLogoContentDescription">Handy-Signatur Logo</string>
+	<string name="labelMobilePhone">Handy</string>
+	<string name="labelSignature">Signatur</string>
+	<string name="labelPhoneNumber">Telefonnummer</string>
+	<string name="labelPassword">Signaturpasswort</string>
+	<string name="labelYourTan">Ihre TAN</string>
+	<string name="labelReferenceValue">Vergleichswert:</string>
+	<string name="contentDescriptionCancelButton">Abbrechen</string>
+	<string name="contentDescriptionOKButton">Weiter</string>
+	<string name="contentDescriptionSigDataButton">Signaturdaten anzeigen</string>
+	
+	<string name="errorWrongNumberOrPassword">Falsche Telefonnummer oder Passwort.</string>
+	<string name="errorWrongTAN">Falsche TAN. Noch\u0020</string>
+	<string name="errorWrongTANTry">\u0020Versuch.</string>
+	<string name="errorWrongTANTries">\u0020Versuche.</string>
+	<string name="errorWrongTANBlocked">Sie haben 3 mal eine falsche TAN eingegeben.</string>
+	<string name="errorMissingPassword">Passwort fehlt oder ist zu kurz.</string>
+	<string name="errorChoosePrefix">Bitte wählen Sie eine Vorwahl aus.</string>
+	<string name="errorUndefined">Unbekannter Fehler.</string>
+	
+	<string name="testSignatureNumber">1122334455</string>
+	<string name="testSignaturePassword">123456789</string>
+	<string name="testSignatureTAN">123456</string>
+	
+	<string name="TANWaitMessage">Warte auf TAN..</string>
+</resources>

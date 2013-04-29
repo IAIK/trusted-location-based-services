@@ -1,0 +1,18 @@
+<resources>
+   <string-array name="prefix_array">
+        <item>Vorwahl</item>
+        <item>+43664</item>
+        <item>+43676</item>
+        <item>+43699</item>
+        <item>+43660</item>
+        <item>+43650</item>
+        <item>+43680</item>
+        <item>+43681</item>
+        <item>+43688</item>
+        <item>+30694</item>
+        <item>+32</item>
+    </string-array>
+   <string-array name="prefix_array_test">
+       <item >10301</item>
+   </string-array>
+</resources>

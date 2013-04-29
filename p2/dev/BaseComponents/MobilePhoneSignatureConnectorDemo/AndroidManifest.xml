@@ -1,0 +1,39 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="at.gv.egiz.mgovernment.android.mobilephonesignatureconnectortest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />    
+    
+    <application
+        android:icon="@drawable/egiz_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".TestMobilePhoneSignature"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/title_activity_test_mobile_phone_signature" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".PresentResultActivity"></activity>        
+        
+	    <activity android:name="at.gv.egiz.mgovernment.android.mobilephonesignatureconnector.activities.SubmitCredentialsActivity"></activity>
+	    <activity android:name="at.gv.egiz.mgovernment.android.mobilephonesignatureconnector.activities.SubmitTanActivity"></activity>  
+	    <activity android:name="at.gv.egiz.mgovernment.android.mobilephonesignatureconnector.activities.HandySignaturActivity"></activity>        
+        
+    </application>
+
+</manifest>

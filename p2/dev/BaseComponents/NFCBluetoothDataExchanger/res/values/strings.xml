@@ -1,0 +1,21 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">NFCBluetoothDataExchanger</string>
+        
+    <!--  BluetoothCommunication -->
+    <string name="not_connected">Sie sind mit keinem Gerät verbunden.</string>
+    <string name="bt_not_enabled_leaving">Bluetooth wurde nicht aktiviert. Datentransfer abgebrochen.</string>
+    <string name="bt_not_available">Bluetooth ist nicht verfügbar.</string>
+    <string name="nfc_not_available">NFC ist nicht verfügbar.</string>
+    <string name="title_connecting">Verbinden..</string>
+    <string name="title_connected_to">Verbunden mit <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">Nicht verbunden</string>
+	<string name="connected_to">Verbunden mit\u0020</string>
+	<string name="content_description_transmit">Übertragung</string>
+	<string name="text_label_transmission">Übertragen der Daten..</string>
+	
+
+   
+    
+    
+</resources>

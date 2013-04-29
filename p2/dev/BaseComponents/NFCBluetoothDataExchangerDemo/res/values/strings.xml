@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">BluetoothDataExchangerDemo</string>
+    <string name="title_activity_demo">DemoActivity</string>
+	<string name="send_button">Daten senden</string>
+	<string name="textview_datatransmiter">Demo-Anwendung</string>
+</resources>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<!-- RelativeLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_height="fill_parent"  
+    android:layout_width="fill_parent"
+    android:background="#F0F8FF"-->  
+    
+    <ScrollView 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+        
+	    <RelativeLayout
+	        xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:layout_width="wrap_content"
+	        android:layout_height="364dp"
+	        android:layout_marginBottom="190dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginTop="20dp"
+	        android:background="#F0F8FF"
+	        android:paddingLeft="30dp"
+	        android:paddingRight="30dp" >
+
+	        <ImageView
+	            android:id="@+id/imageView2"
+	            android:layout_width="130dp"
+	            android:layout_height="130dp"
+	            android:layout_marginLeft="120dp"
+	            android:layout_marginTop="0dp"
+	            android:contentDescription="@string/mobilePhoneSignatureLogoContentDescription"
+	            android:padding="15dp"
+	            android:src="@drawable/icon_handysignatur" >
+	        </ImageView>
+
+	        <TextView
+	            android:id="@+id/TextView01"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:paddingTop="35dp"
+	            android:text="@string/labelMobilePhone"
+	            android:textColor="#6699cc"
+	            android:textSize="20dp"
+	            android:textStyle="bold" >
+	        </TextView>
+
+	        <TextView
+	            android:id="@+id/TextView02"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/TextView01"
+	            android:gravity="center"
+	            android:paddingBottom="25dp"
+	            android:paddingLeft="35dp"
+	            android:paddingTop="0dp"
+	            android:text="@string/labelSignature"
+	            android:textColor="#6699cc"
+	            android:textSize="20dp"
+	            android:textStyle="bold" >
+	        </TextView>
+
+	        <TextView
+	            android:id="@+id/Errorbox"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/TextView02"
+	            android:background="#FFC1C1"
+	            android:gravity="left"
+	            android:paddingBottom="15dp"
+	            android:paddingLeft="15dp"
+	            android:paddingTop="10dp"
+	            android:textColor="#000"
+	            android:textSize="14dp"
+	            android:visibility="invisible" >
+	        </TextView>
+
+	        <TextView
+	            android:id="@+id/TextView03"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/Errorbox"
+	            android:gravity="center"
+	            android:paddingBottom="15dp"
+	            android:paddingLeft="15dp"
+	            android:paddingTop="10dp"
+	            android:text="@string/labelReferenceValue"
+	            android:textColor="#000"
+	            android:textSize="12dp"
+	            android:textStyle="bold" >
+	        </TextView>
+
+	        <TextView
+	            android:id="@+id/TextView04"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/Errorbox"
+	            android:layout_toRightOf="@+id/TextView03"
+	            android:gravity="center"
+	            android:paddingBottom="15dp"
+	            android:paddingLeft="20dp"
+	            android:paddingTop="10dp"
+	            android:text=""
+	            android:textColor="#000"
+	            android:textSize="12dp" >
+	        </TextView>
+
+	        <!--
+            ImageButton 
+	            android:id="@+id/signatureDataButton" 
+	            style="?android:attr/buttonStyleSmall"	            
+	            android:layout_height="wrap_content" 
+	            android:layout_width="fill_parent" 
+	            android:layout_below="@+id/TextView03"
+	            android:padding="15dp"
+	            android:src="@drawable/sd"
+	            android:onClick="showSignatureData">
+	       
+			</ImageButton
+	        -->
+
+	        <ImageButton
+	            android:id="@+id/signatureDataButton"
+	            android:contentDescription="@string/contentDescriptionSigDataButton"
+	            style="?android:attr/buttonStyleSmall"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_centerHorizontal="true"
+	            android:onClick="showSignatureData"
+	            android:padding="15dp"
+	            android:src="@drawable/sd_blue" >
+	        </ImageButton>
+
+	        <EditText
+	            android:id="@+id/editTextTan"	            
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@+id/TextView03"
+	            android:layout_below="@+id/TextView03"
+	            android:ems="10"
+	            android:hint="@string/labelYourTan"
+	            android:inputType="text"
+	            android:padding="15dp" >
+
+	            <requestFocus />
+	        </EditText>
+
+	        <ImageButton
+	            android:id="@+id/buttonSignieren"
+	            android:contentDescription="@string/contentDescriptionOKButton"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@+id/editTextTan"
+	            android:layout_alignParentBottom="true"
+	            android:onClick="submit"
+	            android:padding="15dp"
+	            android:src="@drawable/ok_blue" />
+
+	        <ImageButton
+	            android:id="@+id/buttonAbbrechen"
+	            android:contentDescription="@string/contentDescriptionCancelButton"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignRight="@+id/editTextTan"
+	            android:onClick="cancel"
+	            android:padding="15dp"
+	            android:src="@drawable/cancel_blue" />
+
+	    </RelativeLayout>
+
+    </ScrollView>
+  
+<!-- /RelativeLayout--> 

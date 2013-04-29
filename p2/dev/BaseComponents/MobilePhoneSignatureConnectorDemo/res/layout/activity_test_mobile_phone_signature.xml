@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textEnterData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dip"
+        android:textSize="20dip"
+        android:text="@string/textview_entertext"
+        android:textStyle="bold" />
+
+    <View
+		android:id="@+id/bar"
+		android:layout_width="fill_parent"
+		android:layout_below="@+id/textEnterData"
+        android:layout_height="2dip"
+        android:background="#E30045" />    
+    
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bar"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_margin="15dip"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:maxLines="3"
+        android:scrollbars="vertical"
+        android:hint="@string/default_input" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_below="@+id/inputText"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dip"
+        android:text="@string/button_send" />
+
+</RelativeLayout>

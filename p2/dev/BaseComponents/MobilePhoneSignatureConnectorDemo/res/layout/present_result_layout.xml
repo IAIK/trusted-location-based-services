@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/textview_result"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dip"
+        android:layout_margin="15dip" />
+    
+    <View
+		android:id="@+id/bar_result"
+		android:layout_width="fill_parent"
+		android:layout_below="@+id/header"
+        android:layout_height="2dip"
+        android:background="#E30045" />     
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bar_result"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dip"
+        android:layout_marginTop="63dp"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="9dip" />
+
+        <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/result"
+        android:text="@string/button_ok"
+        android:layout_margin="15dip" />
+    
+</RelativeLayout>

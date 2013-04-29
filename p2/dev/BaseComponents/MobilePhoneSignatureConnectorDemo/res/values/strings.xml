@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Handy-Signatur Demo</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_test_mobile_phone_signature">Handy-Signatur Demo</string>
+    <string name="button_send">Signieren</string>
+	<string name="button_ok">OK</string>
+    <string name="textview_result">Resultat des Signaturerstellungsprozesses:</string>
+    <string name="textview_entertext">Angabe der Signaturdaten</string>
+    <string name="textview_result">Signatur</string>
+    <string name="default_input">Geben Sie hier die zu signierenden Daten an.</string>
+    
+    <string name="errorMissingParameter">Unzulässige Wahl der Aufrufparameter.</string>
+    <string name="errorCanceled">Vorgang wurde abgebrochen.</string>
+    <string name="errorGeneric">Vorgang wurde mit einem Fehler beendet.</string>
+    <string name="errorFileIO">Fehler beim Schreiben der Datei.</string>
+        
+</resources>
