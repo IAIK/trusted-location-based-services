@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LocationAwareSignature/!svn/ver/93/SampleProjectForTesting
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/LocationAwareSignature/!svn/ver/99/SampleProjectForTesting/AndroidManifest.xml
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/LocationAwareSignature/!svn/ver/81/SampleProjectForTesting/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LocationAwareSignature/!svn/ver/6/SampleProjectForTesting/.project
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/LocationAwareSignature/!svn/ver/6/SampleProjectForTesting/proguard.cfg
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LocationAwareSignature/!svn/ver/59/SampleProjectForTesting/.classpath
+END

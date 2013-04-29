@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_height="fill_parent"  
+    android:layout_width="fill_parent"
+    >  
+    
+    <ScrollView 
+        xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:layout_height="fill_parent"  
+        android:layout_width="fill_parent">
+	    <RelativeLayout
+	        xmlns:android="http://schemas.android.com/apk/res/android"  
+	        android:layout_height="fill_parent"  
+	        android:layout_width="wrap_content"
+	        android:paddingLeft="30dp"
+	        android:paddingRight="30dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginBottom="110dp"
+	        android:layout_marginTop="20dp">
+	        
+	        <ImageView 
+	            android:id="@+id/imageView2"
+				android:layout_height="100dp"
+				android:layout_width="100dp" 
+				android:src="@drawable/chiperling"
+				android:padding="15dp"
+				android:layout_marginLeft="120dp"
+				android:layout_marginTop="0dp"
+				>
+	        </ImageView>
+	        
+	        <TextView  
+	        android:text="A-Trust"  
+	        android:id="@+id/TextView01"  
+	        android:layout_height="wrap_content"    
+	        android:gravity="center"    
+	        android:layout_width="wrap_content"  
+	        android:padding="15dp"
+	        android:textSize="20dp"
+	        android:textStyle="bold">
+	            
+	        </TextView>  
+	        
+	        <TextView  
+	        android:text="Handy Signatur"  
+	        android:id="@+id/TextView02"  
+	        android:layout_height="wrap_content"    
+	        android:gravity="center"   
+	        android:layout_width="wrap_content"  
+	        android:paddingLeft="15dp"
+	        android:paddingBottom="15dp"
+	        android:paddingTop="0dp"
+	        android:layout_below="@+id/TextView01"
+	        android:textSize="15dp"
+	        >
+	            
+	        </TextView>  
+	        
+	    
+			
+	        
+	        
+	        <Button 
+	            android:text="Erstelle Ticket" 
+	            android:id="@+id/buttonCreateTicket" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:onClick="createTicket"
+	            android:padding="15dp"
+	            android:layout_marginTop="15dp"
+	            android:layout_below="@+id/TextView02">
+	            
+	        </Button>
+	        
+	        
+	        
+	        <!-- Button 
+	            android:text="Starte Testsignatur" 
+	            android:id="@+id/buttonStartTestSignature" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:onClick="startTestSignature"
+	            android:padding="15dp"
+	            android:layout_marginTop="15dp"
+	            android:layout_below="@+id/buttonCreateTicket">
+	            
+	        </Button>
+	        
+	        <Button 
+	            android:text="Starte Signatur, Capture Tan" 
+	            android:id="@+id/buttonStartSignatureCaptureTan" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:onClick="startSignatureCaptureTan"
+	            android:padding="15dp"
+	            android:layout_marginTop="15dp"
+	            android:layout_below="@+id/buttonStartTestSignature">
+	            
+	        </Button>
+	        
+	        <Button 
+	            android:text="Starte Signatur, Ohne Capture Tan" 
+	            android:id="@+id/buttonStartSignatureOhneCaptureTan" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:onClick="startSignatureOhneCaptureTan"
+	            android:padding="15dp"
+	            android:layout_marginTop="15dp"
+	            android:layout_below="@+id/buttonStartSignatureCaptureTan">
+	            
+	        </Button-->
+	        
+	        
+	        
+	    </RelativeLayout>
+    </ScrollView>
+  
+</LinearLayout> 

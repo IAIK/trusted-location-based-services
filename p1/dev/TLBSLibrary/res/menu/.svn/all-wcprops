@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/LocationAwareSignature/!svn/ver/89/NFClib/res/menu
+END
+create_ticket_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/LocationAwareSignature/!svn/ver/84/NFClib/res/menu/create_ticket_menu.xml
+END
+quit_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LocationAwareSignature/!svn/ver/100/NFClib/res/menu/quit_menu.xml
+END
+show_ticket_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/LocationAwareSignature/!svn/ver/84/NFClib/res/menu/show_ticket_menu.xml
+END
+sign_ticket_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/LocationAwareSignature/!svn/ver/84/NFClib/res/menu/sign_ticket_menu.xml
+END
+share_ticket_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LocationAwareSignature/!svn/ver/89/NFClib/res/menu/share_ticket_menu.xml
+END
+general_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LocationAwareSignature/!svn/ver/84/NFClib/res/menu/general_menu.xml
+END

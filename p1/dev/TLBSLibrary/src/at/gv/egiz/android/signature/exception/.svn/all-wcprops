@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/LocationAwareSignature/!svn/ver/72/NFClib/src/at/gv/egiz/android/signature/exception
+END
+EgizHttpCommunicatorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/LocationAwareSignature/!svn/ver/61/NFClib/src/at/gv/egiz/android/signature/exception/EgizHttpCommunicatorException.java
+END
+EgizCertificateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LocationAwareSignature/!svn/ver/61/NFClib/src/at/gv/egiz/android/signature/exception/EgizCertificateException.java
+END
+SignatureCreationFailedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/LocationAwareSignature/!svn/ver/61/NFClib/src/at/gv/egiz/android/signature/exception/SignatureCreationFailedException.java
+END
+WrongTanException.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/LocationAwareSignature/!svn/ver/61/NFClib/src/at/gv/egiz/android/signature/exception/WrongTanException.java
+END
+WrongUserCredentialsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/LocationAwareSignature/!svn/ver/61/NFClib/src/at/gv/egiz/android/signature/exception/WrongUserCredentialsException.java
+END
+XMLCorruptedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LocationAwareSignature/!svn/ver/100/NFClib/src/at/gv/egiz/android/signature/exception/XMLCorruptedException.java
+END
+PasswordMissingOrTooShortException.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/LocationAwareSignature/!svn/ver/72/NFClib/src/at/gv/egiz/android/signature/exception/PasswordMissingOrTooShortException.java
+END
+NoInternetConnectionAvailableException.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/LocationAwareSignature/!svn/ver/61/NFClib/src/at/gv/egiz/android/signature/exception/NoInternetConnectionAvailableException.java
+END
+StartingParameterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LocationAwareSignature/!svn/ver/68/NFClib/src/at/gv/egiz/android/signature/exception/StartingParameterException.java
+END

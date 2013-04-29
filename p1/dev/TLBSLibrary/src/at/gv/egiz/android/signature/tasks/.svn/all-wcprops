@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/LocationAwareSignature/!svn/ver/88/NFClib/src/at/gv/egiz/android/signature/tasks
+END
+PostNumberAndPasswordTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/LocationAwareSignature/!svn/ver/88/NFClib/src/at/gv/egiz/android/signature/tasks/PostNumberAndPasswordTask.java
+END
+RequestSignatureCreationTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LocationAwareSignature/!svn/ver/88/NFClib/src/at/gv/egiz/android/signature/tasks/RequestSignatureCreationTask.java
+END
+PostTanTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/LocationAwareSignature/!svn/ver/98/NFClib/src/at/gv/egiz/android/signature/tasks/PostTanTask.java
+END

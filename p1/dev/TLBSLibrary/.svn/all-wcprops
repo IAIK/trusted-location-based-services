@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/LocationAwareSignature/!svn/ver/95/NFClib
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LocationAwareSignature/!svn/ver/89/NFClib/AndroidManifest.xml
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LocationAwareSignature/!svn/ver/82/NFClib/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/LocationAwareSignature/!svn/ver/12/NFClib/.project
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LocationAwareSignature/!svn/ver/8/NFClib/proguard.cfg
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LocationAwareSignature/!svn/ver/88/NFClib/.classpath
+END

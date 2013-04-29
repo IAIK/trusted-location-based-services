@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_height="fill_parent"  
+    android:layout_width="fill_parent">  
+    
+    <ScrollView 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+	    <RelativeLayout
+	        xmlns:android="http://schemas.android.com/apk/res/android"  
+	        android:layout_height="fill_parent"  
+	        android:layout_width="wrap_content"
+	        android:paddingLeft="30dp"
+	        android:paddingRight="30dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginBottom="110dp"
+	        android:layout_marginTop="20dp">
+	        
+	        <ImageView 
+	            android:id="@+id/imageView2"
+				android:layout_height="100dp"
+				android:layout_width="100dp" 
+				android:src="@drawable/chiperling"
+				android:padding="15dp"
+				android:layout_marginLeft="120dp"
+				android:layout_marginTop="0dp"
+				>
+	        </ImageView>
+	        
+	        <TextView  
+	        android:text="A-Trust"  
+	        android:id="@+id/TextView01"  
+	        android:layout_height="wrap_content"    
+	        android:gravity="center"    
+	        android:layout_width="wrap_content"  
+	        android:padding="15dp"
+	        android:textSize="20dp"
+	        android:textStyle="bold">
+	            
+	        </TextView>  
+	        
+	        <TextView  
+	        android:text="Handy Signatur"  
+	        android:id="@+id/TextView02"  
+	        android:layout_height="wrap_content"    
+	        android:gravity="center"   
+	        android:layout_width="wrap_content"  
+	        android:paddingLeft="15dp"
+	        android:paddingBottom="15dp"
+	        android:paddingTop="0dp"
+	        android:layout_below="@+id/TextView01"
+	        android:textSize="15dp"
+	        >
+	            
+	        </TextView>  
+	        
+	        <TextView  
+	        android:text=""  
+	        android:id="@+id/Errorbox"  
+	        android:layout_height="wrap_content"    
+	        android:gravity="center"   
+	        android:layout_width="fill_parent"  
+	        android:paddingLeft="15dp"
+	        android:paddingBottom="15dp"
+	        android:paddingTop="10dp"
+	        android:layout_below="@+id/TextView02"
+	        android:textSize="14dp"
+	        android:visibility="invisible">
+	            
+	        </TextView>  
+	        
+	        
+	        <Spinner
+				android:id="@+id/spinnerVorwahl"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:prompt="@string/prefix_prompt"
+				android:layout_below="@+id/Errorbox"
+				android:padding="15dp"
+				android:layout_marginTop="10dp">
+		    </Spinner>
+	            
+	        <EditText 
+	            android:id="@+id/editTextNummer" 
+	            android:layout_height="wrap_content" 
+	            android:layout_width="fill_parent" 
+	            android:hint="Telefonnummer"
+	            android:layout_below="@+id/spinnerVorwahl"
+	            android:padding="15dp"
+	            android:imeOptions="actionNext"
+	            android:singleLine="true">
+	            
+	        </EditText>
+	        
+	        <EditText 
+	            android:id="@+id/editTextPasswort" 
+	            android:inputType="textPassword" 
+	            android:layout_height="wrap_content" 
+	            android:layout_width="fill_parent" 
+	            android:hint="Signaturpasswort"
+	            android:layout_below="@+id/editTextNummer"
+	            android:padding="15dp"
+	            android:imeOptions="actionDone"
+	            android:singleLine="true">
+			</EditText>
+			
+	        <Button 
+	            android:text="Identifizieren" 
+	            android:id="@+id/buttonIdentifizieren" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:onClick="submit"
+	            android:padding="15dp"
+	            android:layout_marginTop="15dp"
+	            android:layout_below="@+id/editTextPasswort">
+	            
+	        </Button>
+	        <Button 
+	            android:text="Abbrechen" 
+	            android:id="@+id/buttonAbbrechen" 
+	            android:layout_width="wrap_content" 
+	            android:layout_height="wrap_content" 
+	            android:onClick="cancel"
+	            android:padding="15dp"
+	            android:layout_marginTop="15dp"
+	            android:layout_below="@+id/editTextPasswort"
+	            android:layout_toRightOf="@+id/buttonIdentifizieren">
+	            
+	        </Button>
+	        
+	    </RelativeLayout>
+    
+   </ScrollView>
+  
+</RelativeLayout> 

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_height="fill_parent"  
+    android:layout_width="fill_parent">  
+    
+    <ScrollView 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+        
+	    <RelativeLayout
+	        xmlns:android="http://schemas.android.com/apk/res/android"  
+	        android:layout_height="fill_parent"  
+	        android:layout_width="wrap_content"
+	        android:paddingLeft="30dp"
+	        android:paddingRight="30dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginBottom="190dp"
+	        android:layout_marginTop="20dp">
+	        
+	        <ImageView 
+	            android:id="@+id/imageView2"
+				android:layout_height="100dp"
+				android:layout_width="100dp" 
+				android:src="@drawable/chiperling"
+				android:padding="15dp"
+				android:layout_marginLeft="120dp"
+				android:layout_marginTop="0dp"
+				>
+	        </ImageView>
+	        
+	        <TextView  
+	        android:text="A-Trust"  
+	        android:id="@+id/TextView01"  
+	        android:layout_height="wrap_content"    
+	        android:gravity="center"    
+	        android:layout_width="wrap_content"  
+	        android:padding="15dp"
+	        android:textSize="20dp"
+	        android:textStyle="bold">
+	            
+	        </TextView>  
+	        
+	        <TextView  
+	        android:text="Handy Signatur"  
+	        android:id="@+id/TextView02"  
+	        android:layout_height="wrap_content"    
+	        android:gravity="center"   
+	        android:layout_width="wrap_content"  
+	        android:paddingLeft="15dp"
+	        android:paddingBottom="15dp"
+	        android:paddingTop="0dp"
+	        android:layout_below="@+id/TextView01"
+	        android:textSize="15dp">
+	            
+	        </TextView>  
+	        
+	        <TextView
+	            android:id="@+id/Errorbox"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/TextView02"
+	            android:gravity="left"
+	            android:paddingBottom="15dp"
+	            android:paddingLeft="15dp"
+	            android:paddingTop="10dp"
+	            android:text="bla"
+	            android:textSize="14dp"
+	            android:visibility="invisible" >
+	            
+	        </TextView> 
+	            
+	        <TextView  
+	        android:text="Vergleichswert:"  
+	        android:id="@+id/TextView03"  
+	        android:layout_height="wrap_content"    
+	        android:gravity="center"   
+	        android:layout_width="wrap_content"  
+	        android:paddingLeft="15dp"
+	        android:paddingBottom="15dp"
+	        android:paddingTop="10dp"
+	        android:layout_below="@+id/Errorbox"
+	        android:textSize="12dp"
+	        android:textStyle="bold">
+	            
+	        </TextView>  
+	        
+	        <TextView  
+	        android:text=""  
+	        android:id="@+id/TextView04"  
+	        android:layout_height="wrap_content"    
+	        android:gravity="center"   
+	        android:layout_width="wrap_content"  
+	        android:paddingBottom="15dp"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:layout_below="@+id/Errorbox"
+	        android:layout_toRightOf="@+id/TextView03"
+	        android:textSize="12dp">
+	            
+	        </TextView>  
+	        
+	        
+	        <EditText 
+	            android:id="@+id/editTextTan" 
+	            android:inputType="text" 
+	            android:layout_height="wrap_content" 
+	            android:layout_width="fill_parent" 
+	            android:hint="Ihre Tan"
+	            android:layout_below="@+id/TextView03"
+	            android:padding="15dp">
+			</EditText>
+			
+	        <Button 
+	            android:text="Signieren" 
+	            android:id="@+id/buttonSignieren" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:onClick="submit"
+	            android:padding="15dp"
+	            android:layout_marginTop="15dp"
+	            android:layout_below="@+id/editTextTan">
+	            
+	        </Button>
+	        <Button 
+	            android:text="Abbrechen" 
+	            android:id="@+id/buttonAbbrechen" 
+	            android:layout_width="wrap_content" 
+	            android:layout_height="wrap_content" 
+	            android:onClick="cancel"
+	            android:padding="15dp"
+	            android:layout_marginTop="15dp"
+	            android:layout_below="@+id/editTextTan"
+	            android:layout_toRightOf="@+id/buttonSignieren">
+	            
+	        </Button>
+	        
+	    </RelativeLayout>
+    </ScrollView>
+  
+</RelativeLayout> 

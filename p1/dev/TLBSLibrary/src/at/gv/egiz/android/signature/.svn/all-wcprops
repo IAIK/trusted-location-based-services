@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/LocationAwareSignature/!svn/ver/95/NFClib/src/at/gv/egiz/android/signature
+END
+SessionData.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/LocationAwareSignature/!svn/ver/72/NFClib/src/at/gv/egiz/android/signature/SessionData.java
+END
+SignatureUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/LocationAwareSignature/!svn/ver/75/NFClib/src/at/gv/egiz/android/signature/SignatureUtils.java
+END
+Error.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/LocationAwareSignature/!svn/ver/61/NFClib/src/at/gv/egiz/android/signature/Error.java
+END
+SignatureCreationConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/LocationAwareSignature/!svn/ver/72/NFClib/src/at/gv/egiz/android/signature/SignatureCreationConstants.java
+END
+ATrust.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/LocationAwareSignature/!svn/ver/72/NFClib/src/at/gv/egiz/android/signature/ATrust.java
+END

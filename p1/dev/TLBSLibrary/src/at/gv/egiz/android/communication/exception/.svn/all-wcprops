@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/LocationAwareSignature/!svn/ver/61/NFClib/src/at/gv/egiz/android/communication/exception
+END
+InvalidRemoteAddressException.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/LocationAwareSignature/!svn/ver/61/NFClib/src/at/gv/egiz/android/communication/exception/InvalidRemoteAddressException.java
+END
+RemoteDeviceNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/LocationAwareSignature/!svn/ver/61/NFClib/src/at/gv/egiz/android/communication/exception/RemoteDeviceNotFoundException.java
+END

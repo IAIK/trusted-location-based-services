@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/LocationAwareSignature/!svn/ver/88/NFClib/src/at/gv/egiz/android/communication/http
+END
+HttpCommunicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/LocationAwareSignature/!svn/ver/88/NFClib/src/at/gv/egiz/android/communication/http/HttpCommunicator.java
+END
+CustomHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/LocationAwareSignature/!svn/ver/88/NFClib/src/at/gv/egiz/android/communication/http/CustomHttpClient.java
+END

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout 
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:padding="5dip"
+	    android:id="@+id/linearLayoutTicket">
+	    
+	    <TextView android:layout_height="wrap_content" android:text="Position: " android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/positionInfo" android:layout_width="wrap_content"></TextView>
+	    <TextView android:layout_height="wrap_content" android:text="Accuracy: " android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/accuracyInfo" android:layout_width="wrap_content"></TextView>
+	    <TextView android:layout_height="wrap_content" android:text="Time: " android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/timeInfo" android:layout_width="wrap_content"></TextView>
+		
+	        
+	    <!-- my_release_key 0puLn-jziEPp4yOYGX54YftmlKSWOtE9lgu_JkA -->
+	    <!-- android:apiKey="0puLn-jziEPpyCiqSL0tiT9oqYakf_V6iK30f2g" debug key-->
+		<com.google.android.maps.MapView
+		 xmlns:android="http://schemas.android.com/apk/res/android"
+		 android:id="@+id/mapview"
+		 android:layout_width="fill_parent"
+		 android:layout_height="240dip"
+		 android:clickable="true"
+		 android:apiKey="0puLn-jziEPpyCiqSL0tiT9oqYakf_V6iK30f2g" 
+		 android:layout_marginTop="5dip"
+		 android:layout_marginBottom="10dip"
+		/>
+		
+		<TextView android:id="@+id/textViewAttachment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Attachment" android:visibility="invisible" android:textAppearance="?android:attr/textAppearanceMedium"/>
+			
+		<at.gv.egiz.android.tltt.utils.AspectRatioImageView android:layout_centerHorizontal="true"
+     		android:id="@+id/imageAttachment"
+     		android:layout_height="wrap_content"
+    		android:layout_width="match_parent" 
+    		android:adjustViewBounds="true" 
+    		android:visibility="invisible"/>
+
+		<Button
+		    android:id="@+id/buttonShowAttachment"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/showAttachment" 
+		    android:visibility="invisible"
+		    android:onClick="showAttachment"/>
+		
+	</LinearLayout>
+	
+</ScrollView>

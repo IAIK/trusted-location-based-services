@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LocationAwareSignature/!svn/ver/74/SampleProjectForTesting/res/raw
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/LocationAwareSignature/!svn/ver/74/SampleProjectForTesting/res/raw/readme.txt
+END
+signature_certstore.bks
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/LocationAwareSignature/!svn/ver/14/SampleProjectForTesting/res/raw/signature_certstore.bks
+END
+signature_truststore.bks
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/LocationAwareSignature/!svn/ver/14/SampleProjectForTesting/res/raw/signature_truststore.bks
+END

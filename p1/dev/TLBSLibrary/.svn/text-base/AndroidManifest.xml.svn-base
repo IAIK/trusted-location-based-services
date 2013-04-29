@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="at.gv.egiz.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- API versions below 9 do not support NFC, >= 10 support peer to peer 
+    communication with NFC, API level 14 provides an easier way to push NDEF 
+    messages to other devices with Android Beam and extra convenience methods 
+    to create NDEF records. -->
+    <uses-sdk android:minSdkVersion="14" />
+    
+    <!-- indicate that device must support Near Field Communication -->
+    <uses-feature android:name="android.hardware.nfc" android:required="true" />
+
+    
+    <uses-permission android:name="android.permission.NFC" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" 
+        android:name=".application.LocationProverApplication">
+	        
+	    <activity android:name=".signature.activities.SubmitCredentialsActivity"></activity>
+	    <activity android:name=".signature.activities.SubmitTanActivity"></activity>  
+	    <activity android:name=".signature.activities.HandySignaturActivity"></activity>  
+	    
+	    <activity android:name="at.gv.egiz.android.tltt.CreateTicketActivity" />
+	   <activity android:name="at.gv.egiz.android.tltt.ShowTicketActivity">
+        	<intent-filter>
+			    <action android:name="android.intent.action.VIEW" />
+			    <category android:name="android.intent.category.DEFAULT" />
+			    <category android:name="android.intent.category.BROWSABLE" />
+			    <data android:scheme="file" />
+			    <!-- TODO: this filter is currently supporting all file types, problem is different behaviours of different file browsers -->
+			    <data android:host="*" />
+	        	<data android:mimeType="*/*" />
+    			<!-- data android:pathPattern="*.*\\.xml" /-->
+  			</intent-filter>
+	   </activity>
+	   <activity android:name=".tltt.FileChooserActivity_old"/>
+	   <activity android:name="group.pals.android.lib.ui.filechooser.FileChooserActivity" android:configChanges="orientation|screenSize|keyboardHidden"/>
+	   <service android:name="group.pals.android.lib.ui.filechooser.services.LocalFileProvider" />
+       <service android:enabled="true" android:name="at.gv.egiz.android.tltt.position.TrustedTimeAndLocationService" />
+       
+	    
+	    <service android:enabled="true" android:name=".signature.MobilePhoneSignatureProvider"></service>        
+        <uses-library android:name="com.google.android.maps" />
+			
+    </application>
+
+</manifest>

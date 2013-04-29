@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/LocationAwareSignature/!svn/ver/95/NFClib/src/at/gv/egiz/android/signature/activities
+END
+SubmitTanActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LocationAwareSignature/!svn/ver/84/NFClib/src/at/gv/egiz/android/signature/activities/SubmitTanActivity.java
+END
+HandySignaturActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LocationAwareSignature/!svn/ver/98/NFClib/src/at/gv/egiz/android/signature/activities/HandySignaturActivity.java
+END
+SubmitCredentialsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LocationAwareSignature/!svn/ver/84/NFClib/src/at/gv/egiz/android/signature/activities/SubmitCredentialsActivity.java
+END

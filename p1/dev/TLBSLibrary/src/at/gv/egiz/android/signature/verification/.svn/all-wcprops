@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/LocationAwareSignature/!svn/ver/88/NFClib/src/at/gv/egiz/android/signature/verification
+END
+SignatureVerifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LocationAwareSignature/!svn/ver/88/NFClib/src/at/gv/egiz/android/signature/verification/SignatureVerifier.java
+END
+VerificationResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/LocationAwareSignature/!svn/ver/80/NFClib/src/at/gv/egiz/android/signature/verification/VerificationResult.java
+END

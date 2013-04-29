@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Client Main Activity</string>
+    <string name="app_name">LocationSignerClient</string>
+	<string name="not_connected">Sie sind derzeit mit keinem Gerät verbunden.</string>  
+	
+	<string name="prefix_prompt">Vorwahl wählen...</string>
+	
+	    
+	<string name="quit">Beenden</string>
+	<string name="reset">Reset</string>
+	<string name="handysignatur">A-Trust Handy Signatur</string>
+	<string name="credentials_prompt">Bitte geben Sie Ihre Zugangsdaten an</string>
+	<string name="sendBTMessage">Send BT Msg</string>
+	<string name="stopBTCommunication">Stop BT Communication</string>
+    <string name="ticket">Submit ticket</string>
+    <string name="file">Datei hinzufügen</string>
+    <string name="sign">Ticket unterschreiben</string>
+    <string name="verify">Ticket prüfen</string>
+    <string name="showAttachment">Datei anzeigen</string>
+    <string name="share">Ticket senden</string>
+
+    
+    <!-- TLTT Module -->
+   <string name="tltt_progress_addfile">Datei wird hinzugefügt...</string>
+   <string name="tltt_progress_displayfile">Datei wird angezeigt...</string>
+   <string name="tltt_enablelocationprovider">Position nicht verfügbar. Aktivieren Sie GPS oder Positionserfassung mittels Netzwerkdaten.</string>
+   <string name="tltt_enablelocationprovider_yes">Ja</string>
+   <string name="tltt_enablelocationprovider_no">Nein</string>
+   <string name="tltt_error_fileisnotatltt">Datei ist kein Location Time Ticket.</string> 
+   <string name="tltt_text_accuracy">Genauigkeit: %1$s m</string>
+   <string name="tltt_text_time">Zeit: %1$s</string>
+   <string name="tltt_text_location">Breite: %1$s \nLänge: %2$s</string>
+   <string name="tltt_progress_waitingforlocation">Warte auf Position...</string>
+   
+   <string name="tltt_signature_ticket">Signiertes Ticket</string>
+   <string name="tltt_signature_subject_dn">Inhaber: %1$s</string>
+   <string name="tltt_signature_issuer_dn">Aussteller: %1$s</string>
+   <string name="tltt_signature_valid_till">Gültig bis: %1$s</string>
+   <string name="tltt_signature_serial_number">Serialnummer: %1$s</string>
+   <string name="tltt_signature_signing_time">Signaturzeit: %1$s</string>
+    
+    <!-- Signature Module -->
+    <string name="signature_waiting">Warte...</string>
+    <string name="signature_progress_postnumberandpassword">Daten werden übermittelt...</string>
+    <string name="signature_progress_postbackbutton">Daten werden übermittelt...</string>
+    <string name="signature_progress_posttan">TAN wird übermittelt...</string>
+    <string name="signature_progress_requestsignaturecreation">Initialisiere Handy Signatur...</string>
+    <string name="signature_error_unkownerror">Unbekannter Fehler.</string>
+    <string name="signature_error_wrongusercredentials">Falsche Telefonnummer oder Passwort.</string>
+    <string name="signature_error_3wrongtansentered">Sie haben 3 mal eine falsche TAN eingegeben.</string>
+    <string name="signature_error_wrongtanamountoftriesleft">Falscher Tan. Noch %1$d Versuche.</string>
+    <string name="signature_error_pwmissingortooshort">Passwort fehlt oder ist zu kurz.</string>
+        
+    <!-- Communication Module -->
+    
+</resources>

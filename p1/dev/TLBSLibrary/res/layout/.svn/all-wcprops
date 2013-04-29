@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LocationAwareSignature/!svn/ver/95/NFClib/res/layout
+END
+initiate_bt.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/LocationAwareSignature/!svn/ver/95/NFClib/res/layout/initiate_bt.xml
+END
+egiz_enter_number_pwd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/LocationAwareSignature/!svn/ver/84/NFClib/res/layout/egiz_enter_number_pwd.xml
+END
+row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LocationAwareSignature/!svn/ver/76/NFClib/res/layout/row.xml
+END
+ticket.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LocationAwareSignature/!svn/ver/84/NFClib/res/layout/ticket.xml
+END
+border_blue.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/LocationAwareSignature/!svn/ver/88/NFClib/res/layout/border_blue.xml
+END
+egiz_enter_tan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/LocationAwareSignature/!svn/ver/84/NFClib/res/layout/egiz_enter_tan.xml
+END
+border_red.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LocationAwareSignature/!svn/ver/88/NFClib/res/layout/border_red.xml
+END
+signed_ticket.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/LocationAwareSignature/!svn/ver/88/NFClib/res/layout/signed_ticket.xml
+END
+signed_ticket2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/LocationAwareSignature/!svn/ver/88/NFClib/res/layout/signed_ticket2.xml
+END
+initiate_nfc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LocationAwareSignature/!svn/ver/95/NFClib/res/layout/initiate_nfc.xml
+END

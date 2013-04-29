@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/LocationAwareSignature/!svn/ver/95/NFClib/src/at/gv/egiz/android/communication/bluetooth
+END
+BluetoothCommunicationDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/LocationAwareSignature/!svn/ver/100/NFClib/src/at/gv/egiz/android/communication/bluetooth/BluetoothCommunicationDevice.java
+END
+BluetoothUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/LocationAwareSignature/!svn/ver/100/NFClib/src/at/gv/egiz/android/communication/bluetooth/BluetoothUtils.java
+END
+BluetoothConnectionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/LocationAwareSignature/!svn/ver/100/NFClib/src/at/gv/egiz/android/communication/bluetooth/BluetoothConnectionManager.java
+END
+BluetoothConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LocationAwareSignature/!svn/ver/95/NFClib/src/at/gv/egiz/android/communication/bluetooth/BluetoothConstants.java
+END

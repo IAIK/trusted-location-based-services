@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <!-- begin signatory 2 -->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayoutSignatory2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+        
+        <TextView android:layout_height="wrap_content"  android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/signatory2_subjectDN" android:layout_width="wrap_content"></TextView>
+		<TextView android:layout_height="wrap_content"  android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/signatory2_serialNumber" android:layout_width="wrap_content"></TextView>
+		<TextView android:layout_height="wrap_content"  android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/signatory2_issuer" android:layout_width="wrap_content"></TextView>
+		<TextView android:layout_height="wrap_content"  android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/signatory2_validTill" android:layout_width="wrap_content"></TextView>
+		<TextView android:layout_height="wrap_content"  android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/signatory2_signingTime" android:layout_width="wrap_content"></TextView>
+		 
+		<TextView android:layout_height="wrap_content" android:layout_marginTop="15dip" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/signedTicket1" android:layout_width="wrap_content"></TextView>
+		    
+        
+	    <!-- begin signatory 1 -->
+	
+	    <LinearLayout
+	        xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/linearLayoutSignatory1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:orientation="vertical"
+	        android:background="@layout/border_blue"
+	        android:padding="10dip" >
+	        
+	        <TextView android:layout_height="wrap_content"  android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/signatory1_subjectDN" android:layout_width="wrap_content"></TextView>
+		    <TextView android:layout_height="wrap_content"  android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/signatory1_serialNumber" android:layout_width="wrap_content"></TextView>
+		    <TextView android:layout_height="wrap_content"  android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/signatory1_issuer" android:layout_width="wrap_content"></TextView>
+			<TextView android:layout_height="wrap_content"  android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/signatory1_validTill" android:layout_width="wrap_content"></TextView>
+		    <TextView android:layout_height="wrap_content"  android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/signatory1_signingTime" android:layout_width="wrap_content"></TextView>
+		    
+		    <TextView android:layout_height="wrap_content" android:layout_marginTop="15dip" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/signedTicket" android:layout_width="wrap_content"></TextView>
+		    
+		    <!--  begin ticket -->
+	        <LinearLayout 
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:padding="10dip"
+		    android:background="@layout/border_red"
+		    android:id="@+id/linearLayoutTicket">
+		    
+			    <TextView android:layout_height="wrap_content"  android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/positionInfo" android:layout_width="wrap_content"></TextView>
+			    <TextView android:layout_height="wrap_content"  android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/accuracyInfo" android:layout_width="wrap_content"></TextView>
+			    <TextView android:layout_height="wrap_content"  android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/timeInfo" android:layout_width="wrap_content"></TextView>
+				
+			        
+			    <!-- my_release_key 0puLn-jziEPp4yOYGX54YftmlKSWOtE9lgu_JkA -->
+			    <!-- android:apiKey="0puLn-jziEPpyCiqSL0tiT9oqYakf_V6iK30f2g" debug key-->
+				<com.google.android.maps.MapView
+				 xmlns:android="http://schemas.android.com/apk/res/android"
+				 android:id="@+id/mapview"
+				 android:layout_width="fill_parent"
+				 android:layout_height="240dip"
+				 android:clickable="true"
+				 android:apiKey="0puLn-jziEPpyCiqSL0tiT9oqYakf_V6iK30f2g" 
+				 android:layout_marginTop="5dip"
+				 android:layout_marginBottom="10dip"
+				/>
+				
+				<TextView android:id="@+id/textViewAttachment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Attachment" android:visibility="invisible" android:textAppearance="?android:attr/textAppearanceMedium"/>
+					
+				<at.gv.egiz.android.tltt.utils.AspectRatioImageView android:layout_centerHorizontal="true"
+		     		android:id="@+id/imageAttachment"
+		     		android:layout_height="wrap_content"
+		    		android:layout_width="match_parent" 
+		    		android:adjustViewBounds="true" 
+		    		android:visibility="invisible"/>
+		
+				<Button
+				    android:id="@+id/buttonShowAttachment"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="@string/showAttachment" 
+				    android:visibility="invisible"
+				    android:onClick="showAttachment"/>
+			</LinearLayout>
+			<!-- end ticket -->
+		</LinearLayout>
+		<!-- end signatory 1 -->
+	</LinearLayout>
+	<!-- end signatory 2 -->
+</ScrollView>
